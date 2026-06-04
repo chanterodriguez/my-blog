@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{background-color: bisque;
+color: rgb(165, 204, 239);}
+image{
+    max-width: 100%;
+}
+/* class selector . */
+.large-text {
+    font-size: 30px;
+}
