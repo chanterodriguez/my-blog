@@ -16,10 +16,10 @@ a{
 h2{ border: 1px solid black;
     background-color: beige;
     border-radius: 10px;
-    color: pink;}
+    color: rgb(220, 116, 134);}
 
 h3{
-    color: pink;
+    color: rgb(220, 116, 134);
 }
 
 img{
@@ -29,6 +29,16 @@ img{
     border-radius: 10px;
     
 }
+
+button{
+    border: 1px solid black;
+    color: black;
+    background-color: beige; 
+    border-radius: 10px; 
+}
+
+button:hover {background-color: rgb(220, 116, 134);}
+
 /* class selector . */
 .large-text {
     font-size: 30px;
@@ -38,10 +48,9 @@ img{
 .nav-flex{
     display: flex;
     justify-content: space-between;
-   
 }
 nav a:hover {
-    color: pink;}
+    color: rgb(220, 116, 134);}
 
 /*main*/
 .container{
@@ -63,4 +72,26 @@ nav a:hover {
     background-color: beige; 
     padding: 10px;
 }
-/*section*/
+/*form*/
+
+.container-form{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    gap: 0px; 
+    padding: 0px;
+}
+
+.form-container{
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: beige;
+}
+
+    .input-container{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
